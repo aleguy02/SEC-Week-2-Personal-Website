@@ -141,11 +141,12 @@
 
 .project-preview-link-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
   border-radius: 0px 0px 2px 2px;
   background-color: rgb(213, 213, 213);
-  border: none;
+  border: 1px solid white;
 }
