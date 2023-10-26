@@ -1,0 +1,9 @@
+body {
+  background-color: rgb(249, 252, 254);
+  height: 3000px;
+  margin: 0;
+}
+
+div {
+  font-family: Roboto, Arial;
+}
