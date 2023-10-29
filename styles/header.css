@@ -7,10 +7,47 @@
   border-bottom-color: rgb(194, 194, 194);
   align-items: end;
   width: 100%;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
 }
 
 .header-text {
   font-size: 40px;
   font-weight: 100;
   margin-left: 10px;
+}
+
+.header-middle-section {
+  flex: 1;
+}
+
+.header-right-section {
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.right-section-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.right-section-icon {
+  height: 40px;
+}
+
+.linkedin-icon {
+  background-color: rgb(0, 119, 181);
+  transition: 0.15s;
+}
+.linkedin-icon:hover {
+  background-color: rgb(0, 95, 146);
+}
+
+.github-icon {
+  transition: 0.15s
+}
+.github-icon:hover {
+  opacity: 0.7;
 }

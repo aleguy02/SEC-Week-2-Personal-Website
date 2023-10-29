@@ -124,6 +124,10 @@
 
 .folder-icon {
   width: 100%;
+  transition: 0.2s;
+}
+.folder-icon:hover {
+  opacity: 0.8;
 }
 
 .folder-icon-text {
@@ -149,4 +153,16 @@
   border-radius: 0px 0px 2px 2px;
   background-color: rgb(213, 213, 213);
   border: 1px solid white;
+}
+
+.project-preview-link {
+  font-size: 16px;
+  transition: 0.1s;
+}
+.project-preview-link:hover {
+  color: rgb(157, 72, 238)
+}
+
+.project-preview-link-small {
+  font-size: 15px;
 }
