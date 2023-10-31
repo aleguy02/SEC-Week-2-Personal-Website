@@ -8,6 +8,8 @@
   align-items: end;
   width: 100%;
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+  z-index: 200;
+  position: relative;
 }
 
 .header-text {
@@ -24,6 +26,7 @@
   width: 150px;
   display: flex;
   justify-content: space-around;
+  background-color: rgb(227, 237, 245);
 }
 
 .right-section-icon-container {
@@ -50,4 +53,42 @@
 }
 .github-icon:hover {
   opacity: 0.7;
+}
+
+.sticky-icon-container {
+  background-color: rgb(185, 185, 185);
+  height: 62px;
+  width: 31px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 3px;
+  top: 40vh;
+  z-index: 50;
+}
+
+.sticky-icon-link {
+  height: 30px;
+  width: 30px;
+}
+
+.linkedin-icon-small {
+  border: 1px solid black;
+  height: 20px;
+  padding: 5px;
+  transition: 0.15s;
+}
+.linkedin-icon-small:hover {
+  background-color: blue;
+}
+
+.github-icon-small {
+  border: 1px solid black;
+  height: 20px;
+  padding: 5px;
+  transition: 0.15s;
+  margin-top: 1px;
+}
+.github-icon-small:hover {
+  background-color: blue;
 }
